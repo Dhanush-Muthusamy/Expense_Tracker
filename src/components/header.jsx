@@ -44,7 +44,7 @@ const ExpenseTracker = () => {
     if (textInput && amountInput) {
       const text = textInput;
       const amount = amountInput;
-      const category = categoryInput || 'Other'; // Default category is 'Other' if not specified
+      const category = categoryInput || 'Other'; 
 
       handleAddTransaction(text, amount, category);
       e.target.reset();
